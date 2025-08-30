@@ -1,3 +1,4 @@
+#Programa que mostra a data e a hora atual.
 from datetime import datetime
 hoje=datetime.now() #Lê a data de hoje
 ano=hoje.strftime("%y")
