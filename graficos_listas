@@ -1,0 +1,9 @@
+import matplotlib.pyplot as plt
+lista_eixo_x = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez']
+lista_eixo_y = [90,90,100,250,260,270,250,240,120,100,220,300]
+plt.plot(lista_eixo_x, lista_eixo_y)
+plt.title('Vendas de 2024')
+plt.ylabel('Número de Vendas')
+plt.xlabel('Meses do ano')
+plt.grid(True)
+plt.show()
