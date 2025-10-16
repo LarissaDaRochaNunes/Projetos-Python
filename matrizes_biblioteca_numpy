@@ -1,0 +1,35 @@
+import numpy
+import numpy as np
+
+matriz = np.array([[1,2,3],[4,5,6]])
+print(matriz)
+print(f"Dimensão da matriz: {matriz.ndim}")
+print(f"Shape da matriz: {matriz.shape}")
+print(f"Número de elementos da matriz: {matriz.size}")
+print(f"Tipo dos elementos da matriz: {matriz.dtype}")
+print(f"Tamanho em Bytes de cada elemento da matriz: {matriz.itemsize}")
+print(f"Local da memória onde está alocado essa matriz: {matriz.data}")
+
+print()
+matriz2 = numpy.arange(0,11,2,dtype=None, like=None)
+print(matriz2)
+
+print()
+matriz2 = matriz2.reshape(2,3)
+print(matriz2)
+
+print()
+matriz3 = numpy.zeros((3,3), dtype=float, order='C')
+print(matriz3)
+
+print()
+matriz4 = numpy.ones((4,4), dtype=float, order='C')
+print(matriz4)
+
+print()
+matriz5 = numpy.empty((2,3,2))
+print(matriz5)
+
+print()
+matriz6 = numpy.linspace(0,11)
+print(matriz6)
